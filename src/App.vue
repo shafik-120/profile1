@@ -4,11 +4,11 @@ import { RouterLink, RouterView } from 'vue-router'
 </script>
 
 <template>
+  <router-link to="/about">about</router-link>
   <div class="container grid grid-cols-12 md:gap-10 justify-between lg:mt-[220px]">
     <div class="col-span-12 lg:col-span-4 lg:h-screen lg:sticky top-44">
-      <div
-        class="w-full mb-6 lg:mb-0 mx-auto relative bg-white text-center dark:bg-[#111111] px-6 rounded-[20px] mt-[180px] md:mt-[220px] lg:mt-0 ">
-        <img src="" alt="">
+      <div class="w-full mb-6 lg:mb-0 mx-auto relative bg-white text-center dark:bg-[#111111] px-6 rounded-[20px] mt-[180px] md:mt-[220px] lg:mt-0 ">
+        <img src="https://bostami-nextjs.netlify.app/_next/image?url=%2Fimages%2Fabout%2Favatar.jpg&w=256&q=75" alt="" class="w-[240px] absolute left-[50%] transform -translate-x-[50%] h-[240px] drop-shadow-xl mx-auto rounded-[20px] -mt-[140px]" style="color: transparent;" width="240" height="240"> 
         <div class="pt-[100px] pb-8">
           <h1 class="mt-6 mb-1 text-5xl font-semibold dark:text-white">Monalisa Ashley</h1>
           <h3 class="mb-4 text-[#7B7B7B] inline-block dark:bg-[#1D1D1D] px-5 py-1.5 rounded-lg dark:text-[#A6A6A6] ">Ui/Ux
