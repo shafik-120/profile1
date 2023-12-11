@@ -6,7 +6,7 @@ import MainView from './MainView.vue';
 
 <template>
 <MainView>
-    <h1>Portfoiio Page</h1>
+    <h1>Service Page</h1>
 </MainView>
 </template>
 

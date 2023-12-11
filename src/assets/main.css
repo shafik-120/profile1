@@ -1,5 +1,14 @@
-body{
-    background: url('../assets/img/bg.jpg');
-    background-attachment: fixed;
+@import url('./base.css');
+
+.bg-homeBg{
+    background-image: url('../assets/img/bg.jpg') ;
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: fixed;
+}
+.bg-homeTwoBg-dark{
+    background-image: url('../assets/img/bgtwo.jpg') ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: fixed;
 }

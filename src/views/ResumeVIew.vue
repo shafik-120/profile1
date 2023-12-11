@@ -1,9 +1,12 @@
 <script setup>
+import MainView from './MainView.vue';
+
 
 </script>
 
 <template>
-<div class="container px-4 sm:px-5 md:px-10 lg:px-14">
+<MainView>
+    <div class="container px-4 sm:px-5 md:px-10 lg:px-14">
     <div class="py-12">
         <h2 class="after-effect after:left-44">Resume</h2>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-x-6 gap-y-6 mt-[30px]">
@@ -71,6 +74,7 @@
        </div>
     </div>
 </div>
+</MainView>
 </template>
 
 <style scoped>

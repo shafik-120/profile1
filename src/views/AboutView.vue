@@ -1,30 +1,140 @@
 <script setup>
-
+import MainView from './MainView.vue';
 </script>
 
 <template>
-  <div class="  dark:border-[#212425] dark:border-2 mb-16  md:p-[48px]  p-4   bg-color-810 rounded-xl dark:bg-[#111111] mb-[30px] md:mb-[60px]">
-    <h3 class="text-4xl ">
-      <span class="text-gray-lite dark:text-[#A6A6A6] ">I'm always open to discussing product</span>
-      <br>
-      <span class="font-semibold dark:text-white">design work or partnerships.</span>
-    </h3>
-    <form id="myForm">
-      <div class="relative z-0 w-full mt-[40px] mb-8 group">
-      <input type="text" name="name" class="block autofill:bg-transparent py-2.5 px-0 w-full text-sm text-gray-lite bg-transparent border-0 border-b-[2px] border-[#B5B5B5] appearance-none dark:text-white dark:border-[#333333] dark:focus:border-[#FF6464] focus:outline-none focus:ring-0 focus:border-[#FF6464] peer" placeholder=" " required="">
-      <label for="name" class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-color-910 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-[#FF6464] peer-focus:dark:text-[#FF6464] peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-8">Name *</label>
-    </div><div class="relative z-0 w-full mb-8 group">
-      <input type="email" name="user_email" class="block autofill:text-red-900 needed py-2.5 px-0 w-full text-sm text-gray-lite bg-transparent border-0 border-b-[2px] border-[#B5B5B5] appearance-none dark:text-white dark:border-[#333333] dark:focus:border-[#FF6464] focus:outline-none focus:ring-0 focus:border-[#5185D4] peer" placeholder=" " id="user_email" required="">
-      <label for="user_email" class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-color-910 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-[#5185D4] peer-focus:dark:text-[#FF6464] peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-8">Email *</label>
-    </div><div class="relative z-0 w-full mb-8 group">
-      <input type="text" name="message" class="block autofill:bg-yellow-200 py-2.5 px-0 w-full text-sm text-gray-lite bg-transparent border-0 border-b-[2px] border-[#B5B5B5] appearance-none dark:text-white dark:border-[#333333] dark:focus:border-[#FF6464] focus:outline-none focus:ring-0 focus:border-[#CA56F2] peer" placeholder=" " id="message" required="">
-      <label for="message" class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-color-910 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-[#CA56F2] peer-focus:dark:text-[#FF6464] peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-8">Message *</label>
+  <MainView>
+    <div class="">
+        <div class="aos-init aos-animate">
+        <div class="pt-12 md:py-12 px-2 sm:px-5 md:px-10 lg:px-14">
+          <h2 class="after-effect after:left-52">About Me</h2>
+          <div class="lg:grid grid-cols-12 md:gap-10 pt-4 md:pt-[30px] items-center ">
+            <div class="col-span-12 space-y-2.5">
+              <div class="lg:mr-16">
+                <p class="text-gray-lite dark:text-color-910 leading-7">I'm Creative Director and UI/UX Designer from
+                  Sydney, Australia, working in web development and print media. I enjoy turning complex problems into
+                  simple, beautiful and intuitive designs.</p>
+                <p class="text-gray-lite leading-7 mt-2.5 dark:text-color-910">My aim is to bring across your message
+                  and identity in the most creative way. I created web design for many famous brand companies.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <section class="pb-12 px-2 sm:px-5 md:px-10 lg:px-14 ">
+          <h3 class="text-[35px] dark:text-white font-medium pb-5">What I do!</h3>
+          <div class="grid gap-8 grid-cols-1 md:grid-cols-2 xl:grid-cols-2 ">
+            <div class="about-box dark:bg-transparent" style="background: rgb(252, 244, 255);">
+              <div class="space-y-2 break-all">
+                <h3 class="dark:text-white text-xl font-semibold">Ui/Ux Design</h3>
+                <p class=" leading-8 text-gray-lite dark:text-[#A6A6A6]">Lorem ipsum dolor sit amet, consectetuer
+                  adipiscing elit, sed diam euismod volutpat.</p>
+              </div>
+            </div>
+            <div class="about-box dark:bg-transparent" style="background: rgb(254, 250, 240);">
+              <div class="space-y-2 break-all">
+                <h3 class="dark:text-white text-xl font-semibold">App Development</h3>
+                <p class=" leading-8 text-gray-lite dark:text-[#A6A6A6]">Lorem ipsum dolor sit amet, consectetuer
+                  adipiscing elit, sed diam euismod volutpat.</p>
+              </div>
+            </div>
+            <div class="about-box dark:bg-transparent" style="background: rgb(252, 244, 255);">
+              <div class="space-y-2 break-all">
+                <h3 class="dark:text-white text-xl font-semibold">Photography</h3>
+                <p class=" leading-8 text-gray-lite dark:text-[#A6A6A6]">Lorem ipsum dolor sit amet, consectetuer
+                  adipiscing elit, sed diam euismod volutpat.</p>
+              </div>
+            </div>
+            <div class="about-box dark:bg-transparent" style="background: rgb(255, 244, 244);">
+              <div class="space-y-2 break-all">
+                <h3 class="dark:text-white text-xl font-semibold">Photography</h3>
+                <p class=" leading-8 text-gray-lite dark:text-[#A6A6A6]">Lorem ipsum dolor sit amet, consectetuer
+                  adipiscing elit, sed diam euismod volutpat.</p>
+              </div>
+            </div>
+            <div class="about-box dark:bg-transparent" style="background: rgb(255, 240, 248);">
+              <div class="space-y-2 break-all">
+                <h3 class="dark:text-white text-xl font-semibold">Managment</h3>
+                <p class=" leading-8 text-gray-lite dark:text-[#A6A6A6]">Lorem ipsum dolor sit amet, consectetuer
+                  adipiscing elit, sed diam euismod volutpat.</p>
+              </div>
+            </div>
+            <div class="about-box dark:bg-transparent" style="background: rgb(243, 250, 255);">
+              <div class="space-y-2 break-all">
+                <h3 class="dark:text-white text-xl font-semibold">Web Development</h3>
+                <p class=" leading-8 text-gray-lite dark:text-[#A6A6A6]">Lorem ipsum dolor sit amet, consectetuer
+                  adipiscing elit, sed diam euismod volutpat.</p>
+              </div>
+            </div>
+
+            
+          </div>
+        </section>
+        <section class="px-2 sm:px-5 md:px-10 lg:px-14 mb-10">
+          <h3 class="text-[35px] dark:text-white font-medium pb-5">My Client!</h3>
+          <div class="bg-[#F8FBFB] dark:bg-[#0D0D0D] max-w-full h-auto py-10 rounded-xl">
+            <div class="overflow-hidden">
+              <div class="slick-slider slick-initialized" dir="ltr">
+                <div class="slick-list">
+                  <div class="slick-track" style="width: 2448px; opacity: 1; transform: translate3d(-864px, 0px, 0px);">
+                    <div data-index="-5" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true"
+                      style="width: 144px;">
+                      <div>
+
+                      </div>
+                    </div>
+                    <div data-index="-4" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true"
+                      style="width: 144px;">
+                      <div>
+
+                      </div>
+                    </div>
+                    <div data-index="-3" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true"
+                      style="width: 144px;">
+                      <div>
+
+                      </div>
+                    </div>
+                    <div data-index="-2" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true"
+                      style="width: 144px;">
+                      <div>
+
+                      </div>
+                    </div>
+                    <div data-index="-1" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true"
+                      style="width: 144px;">
+                      <div>
+
+                      </div>
+                    </div>
+                    <div data-index="0" class="slick-slide" tabindex="-1" aria-hidden="true"
+                      style="outline: none; width: 144px;">
+                      <div>
+
+                      </div>
+                    </div>
+                    <div data-index="1" class="slick-slide slick-active slick-current" tabindex="-1" aria-hidden="false"
+                      style="outline: none; width: 144px;">
+                      <div>
+
+                      </div>
+                    </div>
+                    <div data-index="2" class="slick-slide slick-active" tabindex="-1" aria-hidden="false"
+                      style="outline: none; width: 144px;">
+                      <div>
+
+                      </div>
+                    </div>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        
+      </div>
     </div>
-    <div class="transition-all duration-300 ease-in-out inline-block hover:bg-gradient-to-r from-[#FA5252] to-[#DD2476] rounded-lg mt-3">
-      <input type="submit" class=" transition ease-in duration-200 font-semibold cursor-pointer border-color-910 hover:border-transparent px-6 py-2 rounded-lg border-[2px] hover:text-white dark:text-white " value="Submit">
-    </div>
-  </form>
-  </div>
+  </MainView>
 </template>
 
 <style scoped>
