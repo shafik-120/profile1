@@ -24,9 +24,9 @@ const router = createRouter({
       component: ()=> import('@/views/PortfolioView.vue')
     },
     {
-      path: '/resume',
-      name: 'resume',
-      component: ()=> import('@/views/ResumeView.vue')
+      path: '/skill',
+      name: 'skill',
+      component: ()=> import('@/views/SkillView.vue')
     },
     {
       path: '/service',
@@ -34,15 +34,11 @@ const router = createRouter({
       component: ()=> import('@/views/ServicesView.vue')
     },
     {
-      path: '/',
-      name: 'home',
-      component: ()=> import('@/views/HomeView.vue')
+      path: '/blog',
+      name: 'blog',
+      component: ()=> import('@/views/BlogView.vue')
     },
-    {
-      path: '/',
-      name: 'home',
-      component: ()=> import('@/views/HomeView.vue')
-    },
+    
     
   ]
 })

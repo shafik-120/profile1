@@ -5,21 +5,20 @@ import MainView from './MainView.vue';
 <template>
   <MainView>
     <div class="">
-        <div class="aos-init aos-animate">
+      
         <div class="pt-12 md:py-12 px-2 sm:px-5 md:px-10 lg:px-14">
-          <h2 class="after-effect after:left-52">About Me</h2>
+          <h2 class="after-effect after:left-52 HeadingFontStyle text-[2.5rem] font-bold capitalize animate-text">About Me</h2>
+          <p class="text-indigo-400 dark:text-white not-animate-text HeadingFontStyle font-bold">Junior Frontend Web Developer</p>
           <div class="lg:grid grid-cols-12 md:gap-10 pt-4 md:pt-[30px] items-center ">
             <div class="col-span-12 space-y-2.5">
               <div class="lg:mr-16">
-                <p class="text-gray-lite dark:text-color-910 leading-7">I'm Creative Director and UI/UX Designer from
-                  Sydney, Australia, working in web development and print media. I enjoy turning complex problems into
-                  simple, beautiful and intuitive designs.</p>
-                <p class="text-gray-lite leading-7 mt-2.5 dark:text-color-910">My aim is to bring across your message
-                  and identity in the most creative way. I created web design for many famous brand companies.</p>
+                <p class="text-gray-lite dark:text-color-910 leading-7">I will put my sincere effort to do the best in the technology domain with state of art Excellency. I am hard-working in the individual phase with proficiency in using different technology. I am hungry to learn and determined to find core engineering beauty at best.</p>
+                <p class="text-gray-lite dark:text-color-910 leading-7">I will put my sincere effort to do the best in the technology domain with state of art Excellency. I am hard-working in the individual phase with proficiency in using different technology. I am hungry to learn and determined to find core engineering beauty at best.</p>
               </div>
             </div>
           </div>
         </div>
+        
         <section class="pb-12 px-2 sm:px-5 md:px-10 lg:px-14 ">
           <h3 class="text-[35px] dark:text-white font-medium pb-5">What I do!</h3>
           <div class="grid gap-8 grid-cols-1 md:grid-cols-2 xl:grid-cols-2 ">
@@ -132,7 +131,6 @@ import MainView from './MainView.vue';
           </div>
         </section>
         
-      </div>
     </div>
   </MainView>
 </template>
