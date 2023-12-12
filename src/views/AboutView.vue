@@ -8,7 +8,7 @@ import MainView from './MainView.vue';
       
         <div class="pt-12 md:py-12 px-2 sm:px-5 md:px-10 lg:px-14">
           <h2 class="after-effect after:left-52 HeadingFontStyle text-[2.5rem] font-bold capitalize animate-text">About Me</h2>
-          <p class="text-indigo-400 dark:text-white not-animate-text HeadingFontStyle font-bold">Junior Frontend Web Developer</p>
+          <p class=" dark:text-white  HeadingFontStyle font-bold">Junior Frontend Web Developer</p>
           <div class="lg:grid grid-cols-12 md:gap-10 pt-4 md:pt-[30px] items-center ">
             <div class="col-span-12 space-y-2.5">
               <div class="lg:mr-16">
