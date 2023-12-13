@@ -68,69 +68,7 @@ import MainView from './MainView.vue';
             
           </div>
         </section>
-        <section class="px-2 sm:px-5 md:px-10 lg:px-14 mb-10">
-          <h3 class="text-[35px] dark:text-white font-medium pb-5">My Client!</h3>
-          <div class="bg-[#F8FBFB] dark:bg-[#0D0D0D] max-w-full h-auto py-10 rounded-xl">
-            <div class="overflow-hidden">
-              <div class="slick-slider slick-initialized" dir="ltr">
-                <div class="slick-list">
-                  <div class="slick-track" style="width: 2448px; opacity: 1; transform: translate3d(-864px, 0px, 0px);">
-                    <div data-index="-5" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true"
-                      style="width: 144px;">
-                      <div>
-
-                      </div>
-                    </div>
-                    <div data-index="-4" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true"
-                      style="width: 144px;">
-                      <div>
-
-                      </div>
-                    </div>
-                    <div data-index="-3" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true"
-                      style="width: 144px;">
-                      <div>
-
-                      </div>
-                    </div>
-                    <div data-index="-2" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true"
-                      style="width: 144px;">
-                      <div>
-
-                      </div>
-                    </div>
-                    <div data-index="-1" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true"
-                      style="width: 144px;">
-                      <div>
-
-                      </div>
-                    </div>
-                    <div data-index="0" class="slick-slide" tabindex="-1" aria-hidden="true"
-                      style="outline: none; width: 144px;">
-                      <div>
-
-                      </div>
-                    </div>
-                    <div data-index="1" class="slick-slide slick-active slick-current" tabindex="-1" aria-hidden="false"
-                      style="outline: none; width: 144px;">
-                      <div>
-
-                      </div>
-                    </div>
-                    <div data-index="2" class="slick-slide slick-active" tabindex="-1" aria-hidden="false"
-                      style="outline: none; width: 144px;">
-                      <div>
-
-                      </div>
-                    </div>
-                    
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        
+      
     </div>
   </MainView>
 </template>
